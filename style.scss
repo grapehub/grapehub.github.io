@@ -289,9 +289,11 @@ footer {
 @import "svg-icons";
 
 // Custom GrapeHub Styles
+@import 'https://fonts.googleapis.com/css?family=Lobster|Poiret+One';
 
 * {
         font-family: 'Poiret One';
+	text-align center;
       }
       
       h1 { 
