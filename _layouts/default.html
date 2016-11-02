@@ -27,8 +27,9 @@
           </div>-->
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            {% for p in site.pages %}
+            <a href="{{ p.url }}">{{ p.title }}</a>
+            {% endfor %}
           </nav>
         </header>
       </div>
